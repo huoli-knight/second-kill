@@ -19,7 +19,7 @@ public class PanicBuyController {
     public String get(String id) {
 
         try {
-            Thread.sleep(1);
+            Thread.sleep(100);
         }catch (Exception e){
 
         }

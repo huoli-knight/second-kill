@@ -29,8 +29,8 @@ spring:
     listener:
       simple:
         #消费者最小数量
-        concurrency: 3
+        concurrency: 1
         # 消费者最大数量
         max-concurrency: 10
-        acknowledge-mode: manual
+        acknowledge-mode: auto
     virtual-host: /

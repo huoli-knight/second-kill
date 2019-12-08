@@ -1,0 +1,14 @@
+dependencies {
+
+    //rabbitmq
+    compile 'org.springframework.boot:spring-boot-starter-amqp:2.1.3.RELEASE'
+    //redis
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: '2.2.1.RELEASE'
+    //jedis
+    compile 'redis.clients:jedis:3.0.1'
+    // springboot依赖包1
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    //测试
+    testCompile 'junit:junit:4.12'
+
+}
